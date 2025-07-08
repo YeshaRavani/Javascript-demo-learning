@@ -22,4 +22,11 @@ let state=null
 console.log(typeof undefined) //undefined
 console.log(typeof null);  //object
 
+// 2 main types : primitive and non-primitive : depends on how they are accesses and stored
+
+// primitive: 
+
+
+
+
 
