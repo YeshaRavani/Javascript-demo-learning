@@ -1,3 +1,4 @@
+/*
 let score = '33abc'
 
 console.log(typeof score);
@@ -49,4 +50,32 @@ console.log(boolean_a); //false
 let num=33
 let str_num=String(num)
 console.log(str_num); //"33"
+
+*/
+//********************************   Operations  *******************************
+
+// - + / * ** / %
+
+let str1='hello'
+let str2=' yesha'
+let str3=str1+str2
+
+console.log(str3);
+
+console.log('1'+2);
+console.log('1'+2+2);
+console.log((1+2+'2'));
+
+console.log(+true); //1
+//console.log(true+); error
+console.log(+'');
+
+let num1,num2,num3
+num1=num2=num3=2+2
+
+let count=100
+count++;
+console.log(count);
+
+
 
