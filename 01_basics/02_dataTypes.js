@@ -1,3 +1,4 @@
+/*
 "use strict";  //treat all JS code as newer version
 
 // alert(3+3) //this syntax works for browser for popups, but not for nodejs
@@ -61,5 +62,31 @@ console.log(typeof bigNum);
 
 // Is javascript is dynamically typed/ statically types : dynamically typed language
 
+*/
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+//Memory
 
- 
+// stack  (primitive )  --> we get a copy of declared variable
+// heap  (Non- primitive) --> we get reference of the original value
+
+let myName='yesha' //primitive
+let anotherName=myName  //a copy of myName is given to anotherName, not the original reference
+anotherName="Nevil"
+
+console.log(anotherName);
+console.log(myName);
+
+let user = {
+    email : "yesha@gmail.com",
+    upi : "17763"
+}
+
+let user2=user //not a copy but direct reference to the original memory
+
+user2.email = "nevil@gmail.com"
+
+console.log(user.email);
+console.log(user2.email);
+
+
+
