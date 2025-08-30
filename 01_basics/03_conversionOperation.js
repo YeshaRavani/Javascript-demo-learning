@@ -1,8 +1,8 @@
 /*
 let score = '33abc'
 
-console.log(typeof score);
-console.log(typeof(score));
+console.log(typeof score); //both same
+console.log(typeof(score)); //both same
 
 let valueInNumber = Number(score)
 
