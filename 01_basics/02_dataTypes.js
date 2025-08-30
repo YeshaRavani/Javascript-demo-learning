@@ -33,6 +33,7 @@ console.log(typeof null);  //object
 //Null
 //undefined
 //symbol (to make something unique) typeof --> symbol
+//BigInt
 
 const id=Symbol('123')
 const anotherId=Symbol('123')
@@ -53,12 +54,15 @@ const heros=['shaktiman', 'naagraj', 'doga'];
 let myObj = {
     name: 'yesha',
     age: 22,
-}
+} //data type of values can be anything --> string, number, another obj, function, etc
+
+
+
 const myFunction = function(){
     console.log("Hello world");
 }
 
-console.log(typeof bigNum);
+console.log(typeof bigNum); //undefined
 
 // Is javascript is dynamically typed/ statically types : dynamically typed language
 
